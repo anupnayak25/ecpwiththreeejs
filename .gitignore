@@ -25,4 +25,3 @@ dist-ssr
 
 # Large model files
 public/models/*.glb
-public/models/*.bin
