@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Large model files
-public/models/*.glb
+public/models/derelict_structures.glb
