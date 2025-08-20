@@ -22,8 +22,8 @@ function App() {
   // Camera viewpoints
   const viewpoints = useMemo(
     () => [
-      { position: { x: 0, y: 30, z: 0 }, lookAt: { x: 0, y: 0, z: 0 }, name: "City Overview" },
-      { position: { x: 8, y: 15, z: 8 }, lookAt: { x: 5, y: 10, z: 5 }, name: "Tall Building" },
+      { position: { x: 52, y: -7, z: 5 }, lookAt: { x: 43, y: -3, z: 16 }, name: "City Overview" },
+      { position: { x: 59, y: -8, z: -9 }, lookAt: { x: 59, y: 4, z: -40 }, name: "Tall Building" },
       { position: { x: -10, y: 2, z: 5 }, lookAt: { x: 0, y: 2, z: 0 }, name: "Street Level" },
       { position: { x: 15, y: 8, z: -10 }, lookAt: { x: 0, y: 5, z: 0 }, name: "Corner View" },
       { position: { x: 0, y: 5, z: 15 }, lookAt: { x: 0, y: 0, z: 0 }, name: "Central Plaza" },
