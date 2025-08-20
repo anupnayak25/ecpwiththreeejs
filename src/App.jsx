@@ -149,7 +149,7 @@ function App() {
     // Load GLTF model
     const loader = new GLTFLoader();
     loader.load(
-      "/models/cityneon.glb",
+      "/models/cityneon2.glb",
       (gltf) => {
         const model = gltf.scene;
         scene.add(model);
